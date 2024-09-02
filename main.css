@@ -1,0 +1,165 @@
+/* PALETA DE CORES */
+:root{
+    --back0: #FFFFFF;
+    --back1: #16668b;
+    --back2: #DEEFE7;
+    --back3: #2f146644;
+    --back4: #0a225727;
+    --back5: #d8621e27;
+}
+
+
+:root{
+    --cort1: #002333;
+    --cort2: #DEEFE7;
+    --cort3: #B4BEC9;
+    --cort4: #853907;
+}
+
+/* CSS RESET */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* CSS READER */
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container2{
+    background-color: var(--back1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5vw;
+    margin-left: 5%;
+    padding: 5px;
+    color: var(--cort2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 550;
+}
+
+ul, li, .container2{
+    font-size: 0;
+}
+
+header ul{
+    display: flex;
+    margin-right: 10%;
+}
+header li{
+    display: inline;
+    margin-left: 5%;
+}
+
+header a{
+    color: var(--cort3);
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* CSS MAIN */
+
+section h2{
+    font-size: clamp(20px, 2.5vw, 60px) ;
+    padding-bottom: 10px;
+    padding-left: 4%;
+    color: var(--cort4);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+article img{
+    width: 100%;
+    border-radius: 2vw 2vw 0 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+article{
+    width: 30%;
+    padding-bottom: clamp(30px,2vw,50px);
+    background-color: #ffffff91;
+    border-radius: 2vw;
+    position: relative;
+    z-index: 500;
+}
+
+main section{
+    width: 92%;
+    margin: 2% auto;
+    padding: 1% 2%;
+    border-radius: 40px;
+}
+
+section header{
+    color: var(--cort3);
+    font-size: clamp(5px, 1.2vw, 25px);
+}
+
+section h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--cort1);
+    font-size: clamp(10px,2vw,35px);
+    font-weight: bolder;
+}
+
+section p{
+    font-size: clamp(5px, 1.5vw, 25px);
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section a{
+    background-color: var(--back1);
+    color: var(--cort2);
+    padding: 5px;
+    margin: 2% 20%;
+    width: 60%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    align-content: center;
+    font-size: clamp(5px,1.5vw,25px);
+}
+
+#sports{
+    background-color: var(--back2);
+    margin-top: calc(header + 10px);
+}
+
+#economy{
+    background-color: var(--back3);
+}
+
+#tecnology{
+    background-color: var(--back4);
+}
+
+#entertainment{
+    background-color: var(--back5);
+}
