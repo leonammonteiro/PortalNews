@@ -1,7 +1,7 @@
 # Portal de Notícias
 
 Esse projeto foi desenvolvido com o objetivo de fixar conhecimento
-sobre HTML e CSS nativo, sendo esse meu primeiro projeto com essas ferramentas.
+sobre HTML e CSS nativo, sendo esse meu primeiro projeto integrando as duas ferramentas.
 
 A partir da versão 1.0.0 lançada, Não há garantias que este projeto terá
 atualizações, pois estarei envolvido com outros projetos com novas funcionalidades e
