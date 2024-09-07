@@ -18,7 +18,7 @@ Ideias para futuras atualizações:
 
     Fiquem a vontade para opiniar e fazer sugestões.
 
-# Contato
+# Links
 
     https://github.com/leonammonteiro
     https://www.linkedin.com/in/leonammonteiro/
